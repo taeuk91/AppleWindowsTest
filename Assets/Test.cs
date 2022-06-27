@@ -14,6 +14,10 @@ public class Test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        this.transform.position = Vector3.back;
+        this.transform.position = -Vector3.back;
+        this.transform.position = -Vector3.right;
+        this.transform.position = Vector3.right;
+
     }
 }
